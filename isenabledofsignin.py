@@ -7,10 +7,10 @@ browser.get('https://training.openspan.com/login')
 text = browser.find_element(By.ID,value="login_button").is_enabled()
 
 elem = browser.find_element(By.ID,"user_name")
-elem.send_keys("yogeshk.gowda99")
+elem.send_keys("username")
 
 elem = browser.find_element(By.NAME,"user_pass")
-elem.send_keys("7676767gyg")
+elem.send_keys("password")
 print(text)
 
 time.sleep(5)
